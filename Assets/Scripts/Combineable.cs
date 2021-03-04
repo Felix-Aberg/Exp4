@@ -22,14 +22,11 @@ public class Combineable : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)  
     {
-        Debug.Log("ta");
         if (CompareTag(collision.gameObject.tag))
         {
-            Debug.Log("tag");
             if(collision.gameObject.GetComponent<Combineable>().level == level
                 && !combining)
             {
-                Debug.Log("tag 2!");
                 Combine(collision);
             }
         }
