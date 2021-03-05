@@ -6,6 +6,7 @@ public class PushClouds : MonoBehaviour
 {
     public float range;
     public float maxPower;
+    public float windForce;
     float decay;
 
     Vector3 mousePosition;
@@ -41,6 +42,7 @@ public class PushClouds : MonoBehaviour
             else
             {
                 //drag clouds in the wind or something
+                child.GetComponent<Rigidbody2D>().AddForce(Vector2.right * windForce);
             }
         }
     }

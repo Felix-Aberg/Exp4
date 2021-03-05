@@ -8,6 +8,7 @@ public class Combineable : MonoBehaviour
     public bool combining;
 
     public GameObject combineInto;
+    public GameObject particleFX;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,7 @@ public class Combineable : MonoBehaviour
         collision.gameObject.GetComponent<Combineable>().combining = true;
         Vector3 pos = Vector3.Lerp(transform.position, collision.gameObject.transform.position, 0.5f);
         GameObject obj = Instantiate(combineInto, transform.parent);
+        Instantiate(particleFX, pos, Quaternion.identity);
         obj.transform.position = pos;
 
         Destroy(collision.gameObject);
