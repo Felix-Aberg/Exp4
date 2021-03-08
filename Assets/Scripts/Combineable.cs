@@ -11,15 +11,6 @@ public class Combineable : MonoBehaviour
     public GameObject particleFX;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)  
     {

@@ -9,7 +9,6 @@ public class Draggable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("rsst");
         holding = true;
     }
 
@@ -35,7 +34,6 @@ public class Draggable : MonoBehaviour
     void Hold()
     {
         Vector3 deltaMouse = mousePosition; // + offset;
-        Debug.Log("rs");
         //Sensitivity
         transform.position = deltaMouse;
     }
