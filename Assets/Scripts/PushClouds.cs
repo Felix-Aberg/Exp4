@@ -37,7 +37,6 @@ public class PushClouds : MonoBehaviour
 
                 //child.GetComponent<Rigidbody2D>().AddForce(direction.normalized * (maxPower - (decay * distance)));
                 child.GetComponent<Rigidbody2D>().AddForce(direction.normalized * ((maxPower / (distance + 0.5f)) - 0.66f));
-                Debug.Log(distance + " and " + ((1/(distance + 0.5f)) - 0.66f));
             }
             else
             {
