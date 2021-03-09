@@ -17,10 +17,6 @@ public class PushClouds : MonoBehaviour
 
     Vector3 mousePosition;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
     // Update is called once per frame
     void Update()
@@ -34,7 +30,7 @@ public class PushClouds : MonoBehaviour
         {
             Drift(child);
 
-            StayWithin(child);
+            //StayWithin(child);
 
             Loop(child);
         }
