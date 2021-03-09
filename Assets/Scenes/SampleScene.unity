@@ -506,7 +506,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551150336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07813651, y: -0.070606954, z: -1.0129634}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -524,8 +524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45d52bcb11baac04d986efe86e992451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 5
-  maxPower: 3
+  range: 2.8
+  maxPower: 3.7
   windForce: 0.2
   screenWidth: 19
   screenHeight: 10
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 2039100000}
   - component: {fileID: 2039099999}
   m_Layer: 0
-  m_Name: BottomCollider (1)
+  m_Name: SideCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
