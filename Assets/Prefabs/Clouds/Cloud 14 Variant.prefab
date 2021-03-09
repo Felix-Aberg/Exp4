@@ -1,27 +1,38 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3450868518614057673
+--- !u!1001 &1638983793109607971
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -367250677840755369, guid: eed0a725429fb494d8282f9e21e11674,
+        type: 3}
+      propertyPath: m_Radius
+      value: 3.89
+      objectReference: {fileID: 0}
     - target: {fileID: 6305959452908758964, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: m_Name
-      value: Cloud 1 Variant
+      value: Cloud 14 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6305959452908758966, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: level
-      value: 1
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6305959452908758966, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: combineInto
       value: 
-      objectReference: {fileID: 655641325025022872, guid: 1c94238b60bc0814aac3834fa5634e28,
+      objectReference: {fileID: 7480359987165090321, guid: 73c37ce4bbb202344a98dca9f186d82b,
+        type: 3}
+    - target: {fileID: 6305959452908758967, guid: eed0a725429fb494d8282f9e21e11674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 962920cd0ad09274eb2db15789c1deb1,
         type: 3}
     - target: {fileID: 6305959452908758969, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
@@ -31,12 +42,12 @@ PrefabInstance:
     - target: {fileID: 6305959452908758969, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.273521
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6305959452908758969, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.6821506
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6305959452908758969, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
