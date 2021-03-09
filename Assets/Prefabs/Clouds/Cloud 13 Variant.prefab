@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3325632155637994922
+--- !u!1001 &3480393491671020965
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,29 +10,23 @@ PrefabInstance:
     - target: {fileID: -367250677840755369, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: m_Radius
-      value: 2.78
+      value: 3.56
       objectReference: {fileID: 0}
     - target: {fileID: 6305959452908758964, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: m_Name
-      value: Cloud 9 Variant
+      value: Cloud 13
       objectReference: {fileID: 0}
     - target: {fileID: 6305959452908758966, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: level
-      value: 9
+      value: 13
       objectReference: {fileID: 0}
-    - target: {fileID: 6305959452908758966, guid: eed0a725429fb494d8282f9e21e11674,
-        type: 3}
-      propertyPath: combineInto
-      value: 
-      objectReference: {fileID: 1491053831537711121, guid: 04d6e40ad7e26f84495b80ded7d38ef3,
-        type: 3}
     - target: {fileID: 6305959452908758967, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 649cc982ce3194e46ae314228c7b924c,
+      objectReference: {fileID: 21300000, guid: f8c88cb49a727f243ae21867ce0ac8b0,
         type: 3}
     - target: {fileID: 6305959452908758969, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
