@@ -331,7 +331,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 5
   maxPower: 3
-  windForce: 0.15
+  windForce: 0.2
+  screenWidth: 19
+  screenHeight: 10
+  lassoStrength: 1
+  telepos: 23
 --- !u!114 &1551150339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,3 +355,4 @@ MonoBehaviour:
   lowTimer: 3
   mediumTimer: 6
   highTimer: 9
+  spawnSpeed: 100
