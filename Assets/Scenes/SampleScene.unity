@@ -176,7 +176,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 74679dcbb730cd74181009ac12884a3b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -491,6 +491,7 @@ GameObject:
   - component: {fileID: 1551150337}
   - component: {fileID: 1551150338}
   - component: {fileID: 1551150339}
+  - component: {fileID: 1551150340}
   m_Layer: 0
   m_Name: Clouds Go Here
   m_TagString: Untagged
@@ -550,6 +551,19 @@ MonoBehaviour:
   lowTimer: 3
   mediumTimer: 6
   highTimer: 9
+--- !u!114 &1551150340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551150336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d82f28580f36224fab46d6e145cf27f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorArrow: {fileID: 2800000, guid: 50341a0a92f211d47b87264b0a02af06, type: 3}
 --- !u!1 &1960682735
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +721,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8, y: 160}
+  m_Size: {x: 8, y: 18.8}
   m_EdgeRadius: 0
 --- !u!114 &2039100001
 MonoBehaviour:
