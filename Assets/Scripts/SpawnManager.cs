@@ -17,6 +17,9 @@ public class SpawnManager : MonoBehaviour
 
     float timer;
 
+    public int level = 1;
+    float levelMultiplier;
+    float chargeRate;
 
     private void Start()
     {
@@ -29,7 +32,7 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
+        timer += Time.deltaTime * level;
         if (transform.childCount < lowAmount)
         {
             if (timer > lowTimer)
@@ -55,5 +58,10 @@ public class SpawnManager : MonoBehaviour
         GameObject spawn = cloud;
         spawn.transform.position = new Vector3(UnityEngine.Random.Range(-22f, -19f), UnityEngine.Random.Range(-9f, 9f), 0f);
         Instantiate(spawn, transform);
+    }
+
+    public void UpdateMultiplier(int level)
+    {
+        chargeRate = 1 + (level * levelMultiplier);
     }
 }

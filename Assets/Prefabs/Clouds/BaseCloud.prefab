@@ -51,7 +51,7 @@ MonoBehaviour:
   combining: 0
   combineInto: {fileID: 2728376244221478837, guid: 13cb0d7251565934d93aac809efe83de,
     type: 3}
-  particleFX: {fileID: 7425628785846331051, guid: 4bf30ce054a02da40b14edad357e2b9a,
+  particleFX: {fileID: 1662147313650803489, guid: 8aa90953267ec524ca6c84b66f4b74af,
     type: 3}
 --- !u!212 &6305959452908758967
 SpriteRenderer:
