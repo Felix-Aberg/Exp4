@@ -15,13 +15,19 @@ PrefabInstance:
     - target: {fileID: 6305959452908758964, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: m_Name
-      value: Cloud 13
+      value: Cloud 13 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6305959452908758966, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: level
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 6305959452908758966, guid: eed0a725429fb494d8282f9e21e11674,
+        type: 3}
+      propertyPath: combineInto
+      value: 
+      objectReference: {fileID: 4701075923901809047, guid: c42e0ddbb4ca62043b6c9b2ca17d9361,
+        type: 3}
     - target: {fileID: 6305959452908758967, guid: eed0a725429fb494d8282f9e21e11674,
         type: 3}
       propertyPath: m_Sprite
