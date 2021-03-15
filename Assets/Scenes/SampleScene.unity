@@ -679,6 +679,7 @@ MonoBehaviour:
   mediumTimer: 6
   highTimer: 9
   level: 1
+  clouds: []
 --- !u!114 &1551150340
 MonoBehaviour:
   m_ObjectHideFlags: 0
